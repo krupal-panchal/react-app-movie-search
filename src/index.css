@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.movie-search {
+  padding: 50px 0;
+  text-align: left;
+  font-family: cursive;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgb(234 224 230 / 30%);
+}
+.form-details h1 {
+  color: #fff;
+}
+.form-groups {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.form-groups input:focus {
+  outline: none;
+}
+.form-groups input {
+  width: 80%;
+  padding: 10px 10px 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+.form-groups button {
+  width: 18%;
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+}
+.form-groups button:hover {
+  background: #5691bc;
+  color: #000;
+}
+.movie-data {
+  display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 9px 20px #000;
+}
+.movie-poster img {
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0 0 20px #000;
+  transition: all 0.5s ease-in-out;
+}
+.movie-poster img:hover {
+  transform: translateY(-3px);
+}
+.movie-info {
+  font-size: 20px;
+}
+.movie-info p {
+  margin-bottom: 7px;
+}
+.ratings {
+  display: flex;
+}
+.ratings .ratings-item strong,
+.ratings .ratings-item span {
+  display: block;
+}
+.ratings .ratings-item {
+  margin-right: 30px;
+}
