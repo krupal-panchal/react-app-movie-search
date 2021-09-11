@@ -1,10 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: cursive;
 }
 
 code {
@@ -45,7 +41,7 @@ code {
   border-radius: 10px;
   border: 1px solid #000;
 }
-.form-groups button {
+.form-groups .search-btn {
   width: 18%;
   background: #000;
   color: #fff;
@@ -54,7 +50,7 @@ code {
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
 }
-.form-groups button:hover {
+.form-groups .search-btn:hover {
   background: #5691bc;
   color: #000;
 }
@@ -92,4 +88,63 @@ code {
 }
 .ratings .ratings-item {
   margin-right: 30px;
+}
+.no-result h2 {
+  color: #fff;
+  margin: 15px 0 0;
+}
+
+/* Menu */
+.main-menu {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  list-style-type: none;
+  padding: 15px;
+  margin: 0;
+  font-family: cursive;
+  background: #587b9d;
+}
+.main-menu li {
+  padding: 5px 15px;
+}
+.main-menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Counter Demo */
+.counter {
+  text-align: left;
+  padding: 20px;
+}
+.counter h2 {
+  margin-bottom: 15px;
+}
+.counter-demo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.counter-demo button {
+  display: block;
+  width: 150px;
+  background: #5691bc;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid #5691bc;
+  margin-bottom: 10px;
+  font-size: 20px;
+  transition: all .2s ease;
+}
+.counter-demo button:hover {
+  background: #fff;
+  color: #000;
+}
+.counter-demo .counter-right {
+  margin-left: 50px;
+}
+.counter-demo .counter-right h3 {
+  font-size: 100px;
+  margin-bottom: 10px;
 }

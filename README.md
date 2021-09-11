@@ -1,3 +1,3 @@
-# My First React App of Movie Search
+# Movie Search React APP
 
 - Used OMDB API for Movie Search ( https://www.omdbapi.com/ )
