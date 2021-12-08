@@ -16,6 +16,9 @@ code {
   padding-right: 20px;
 }
 .movie-search {
+  height: 100vh;
+  display: flex;
+  align-items: center;
   padding: 50px 0;
   text-align: left;
   font-family: cursive;
